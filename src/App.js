@@ -24,17 +24,22 @@ function App() {
     //   </header>
     // </div>
     <BrowserRouter>
-    <div className='container'>
+          <div className="App">
+        <Routes>
+          <Route path="/*" element={<Tuiter/>}/>
+        </Routes>
+      </div>
+     {/* <div className='container'>
       <Routes>
-      <Route index 
+      <Route path='/exercises' 
       element={<Exercises/>}/>
       <Route path='/hello-world'
       element={<HelloWorld/>}/>
-      <Route path='/Tuiter'
+      <Route index='/Tuiter/*'
       element={<Tuiter/>}/>
       </Routes>
 
-    </div>
+    </div>  */}
     </BrowserRouter>
   );
 }

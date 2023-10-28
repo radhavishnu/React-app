@@ -1,0 +1,46 @@
+.wd-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-tweet{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile img{
+    height: 50px;
+    width: 50px;
+    border-radius:30px ;
+}
+
+.content{
+    display: fixed;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 100%;
+}
+
+.wd-name{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.wd-username{
+    font-weight:lighter;
+    color: rgb(92, 92, 92);
+}
+
+.wd-time{
+    font-weight:lighter;
+    color: rgb(92, 92, 92);
+}
+
+.content .wd-para{
+    position: relative;
+    margin-right: 16px;
+    font-size: 15px;
+    max-width: 506px;
+
+}
